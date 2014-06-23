@@ -1,0 +1,42 @@
+// http://worldcup.sfg.io/matches/current
+[
+    {
+        "away_team": {
+            "code": "FRA",
+            "country": "France",
+            "goals": 2
+        },
+        "away_team_events": [
+            {
+                "id": 276,
+                "player": "Giroud",
+                "time": "17",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 277,
+                "player": "Matuidi",
+                "time": "18",
+                "type_of_event": "goal"
+            }
+        ],
+        "datetime": "2014-06-20T16:00:00.000-03:00",
+        "home_team": {
+            "code": "SUI",
+            "country": "Switzerland",
+            "goals": 0
+        },
+        "home_team_events": [
+            {
+                "id": 275,
+                "player": "Senderos",
+                "time": "9",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Arena Fonte Nova",
+        "match_number": 25,
+        "status": "in progress",
+        "winner": null
+    }
+]

@@ -1,0 +1,29 @@
+PODS:
+  - KZPropertyMapper (2.5.0)
+  - Mantle (1.5):
+    - Mantle/extobjc
+  - Mantle/extobjc (1.5)
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.6):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.6)
+
+DEPENDENCIES:
+  - KZPropertyMapper (~> 2.5)
+  - Mantle (~> 1.5)
+  - ReactiveCocoa (~> 2.3)
+  - SDWebImage (~> 3.6)
+
+SPEC CHECKSUMS:
+  KZPropertyMapper: b5252aec33689d4f5cbfa3c74606a33de631dd19
+  Mantle: c67a7e45e14196ed42b2a7cbb98ff6a9920e6b92
+  ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
+  SDWebImage: c6989652c1cdf27cbdf3f56957e2030f825af5bc
+
+COCOAPODS: 0.33.1

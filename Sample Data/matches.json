@@ -1,0 +1,2897 @@
+// http://worldcup.sfg.io/matches
+[
+    {
+        "away_team": {
+            "code": "CRO",
+            "country": "Croatia",
+            "goals": 1
+        },
+        "away_team_events": [
+            {
+                "id": 23,
+                "player": "Brozovi\u0106",
+                "time": "61",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 20,
+                "player": "Corluka",
+                "time": "66",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 21,
+                "player": "Lovren",
+                "time": "69",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 22,
+                "player": "Rebi\u0106",
+                "time": "78",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-12T17:00:00.000-03:00",
+        "home_team": {
+            "code": "BRA",
+            "country": "Brazil",
+            "goals": 3
+        },
+        "home_team_events": [
+            {
+                "id": 11,
+                "player": "Marcelo",
+                "time": "11",
+                "type_of_event": "goal-own"
+            },
+            {
+                "id": 14,
+                "player": "Neymar Jr",
+                "time": "27",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 15,
+                "player": "Neymar Jr",
+                "time": "29",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 13,
+                "player": "Hernanes",
+                "time": "63",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 12,
+                "player": "Bernard",
+                "time": "68",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 16,
+                "player": "Neymar Jr",
+                "time": "71",
+                "type_of_event": "goal-penalty"
+            },
+            {
+                "id": 19,
+                "player": "L Gustavo",
+                "time": "88",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 17,
+                "player": "Ramires",
+                "time": "88",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 18,
+                "player": "Oscar",
+                "time": "901",
+                "type_of_event": "goal"
+            }
+        ],
+        "location": "Arena Corinthians",
+        "match_number": 1,
+        "status": "completed",
+        "winner": "Brazil"
+    },
+    {
+        "away_team": {
+            "code": "CMR",
+            "country": "Cameroon",
+            "goals": 0
+        },
+        "away_team_events": [
+            {
+                "id": 29,
+                "player": "Nounkeu",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 31,
+                "player": "Nounkeu",
+                "time": "77",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 30,
+                "player": "Webo",
+                "time": "79",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-13T13:00:00.000-03:00",
+        "home_team": {
+            "code": "MEX",
+            "country": "Mexico",
+            "goals": 1
+        },
+        "home_team_events": [
+            {
+                "id": 25,
+                "player": "H Moreno",
+                "time": "57",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 27,
+                "player": "O Peralta",
+                "time": "61",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 26,
+                "player": "M Fabian",
+                "time": "69",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 28,
+                "player": "J Hernandez",
+                "time": "74",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 24,
+                "player": "C Salcido",
+                "time": "901",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Estadio das Dunas",
+        "match_number": 2,
+        "status": "completed",
+        "winner": "Mexico"
+    },
+    {
+        "away_team": {
+            "code": "NED",
+            "country": "Netherlands",
+            "goals": 5
+        },
+        "away_team_events": [
+            {
+                "id": 40,
+                "player": "De Guzman",
+                "time": "25",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 37,
+                "player": "De Vrij",
+                "time": "41",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 42,
+                "player": "V. Persie",
+                "time": "44",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 46,
+                "player": "Robben",
+                "time": "53",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 41,
+                "player": "Wijnaldum",
+                "time": "62",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 38,
+                "player": "De Vrij",
+                "time": "65",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 43,
+                "player": "V. Persie",
+                "time": "66",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 44,
+                "player": "V. Persie",
+                "time": "72",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 39,
+                "player": "Veltman",
+                "time": "77",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 45,
+                "player": "Lens",
+                "time": "79",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 47,
+                "player": "Robben",
+                "time": "80",
+                "type_of_event": "goal"
+            }
+        ],
+        "datetime": "2014-06-13T16:00:00.000-03:00",
+        "home_team": {
+            "code": "ESP",
+            "country": "Spain",
+            "goals": 1
+        },
+        "home_team_events": [
+            {
+                "id": 33,
+                "player": "Alonso",
+                "time": "27",
+                "type_of_event": "goal-penalty"
+            },
+            {
+                "id": 35,
+                "player": "Torres",
+                "time": "62",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 34,
+                "player": "Pedro",
+                "time": "62",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 32,
+                "player": "I. Casillas",
+                "time": "65",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 36,
+                "player": "F\u00c1bregas",
+                "time": "78",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Arena Fonte Nova",
+        "match_number": 3,
+        "status": "completed",
+        "winner": "Netherlands"
+    },
+    {
+        "away_team": {
+            "code": "AUS",
+            "country": "Australia",
+            "goals": 1
+        },
+        "away_team_events": [
+            {
+                "id": 56,
+                "player": "Cahill",
+                "time": "35",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 57,
+                "player": "Cahill",
+                "time": "44",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 55,
+                "player": "Mcgowan",
+                "time": "49",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 60,
+                "player": "Jedinak",
+                "time": "58",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 58,
+                "player": "Milligan",
+                "time": "67",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 59,
+                "player": "Halloran",
+                "time": "68",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 61,
+                "player": "Troisi",
+                "time": "78",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-13T19:00:00.000-03:00",
+        "home_team": {
+            "code": "CHI",
+            "country": "Chile",
+            "goals": 3
+        },
+        "home_team_events": [
+            {
+                "id": 48,
+                "player": "Alexis",
+                "time": "12",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 50,
+                "player": "Valdivia",
+                "time": "14",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 49,
+                "player": "Guti\u00c9rrez",
+                "time": "60",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 51,
+                "player": "Beausejour",
+                "time": "68",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 53,
+                "player": "Ch. Ar\u00c1nguiz",
+                "time": "86",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 52,
+                "player": "Pinilla",
+                "time": "88",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 54,
+                "player": "Beausejour",
+                "time": "902",
+                "type_of_event": "goal"
+            }
+        ],
+        "location": "Arena Pantanal",
+        "match_number": 4,
+        "status": "completed",
+        "winner": "Chile"
+    },
+    {
+        "away_team": {
+            "code": "GRE",
+            "country": "Greece",
+            "goals": 0
+        },
+        "away_team_events": [
+            {
+                "id": 73,
+                "player": "Sokratis",
+                "time": "52",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 70,
+                "player": "Salpingidis",
+                "time": "55",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 71,
+                "player": "Fetfatzidis",
+                "time": "57",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 72,
+                "player": "Mitroglou",
+                "time": "64",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 69,
+                "player": "Karagounis",
+                "time": "78",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-14T13:00:00.000-03:00",
+        "home_team": {
+            "code": "COL",
+            "country": "Colombia",
+            "goals": 3
+        },
+        "home_team_events": [
+            {
+                "id": 63,
+                "player": "P. Armero",
+                "time": "5",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 62,
+                "player": "C. Sanchez",
+                "time": "26",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 66,
+                "player": "Teo",
+                "time": "58",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 65,
+                "player": "A. Mejia",
+                "time": "69",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 64,
+                "player": "Arias",
+                "time": "74",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 67,
+                "player": "Jackson M.",
+                "time": "76",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 68,
+                "player": "James",
+                "time": "903",
+                "type_of_event": "goal"
+            }
+        ],
+        "location": "Estadio Mineirao",
+        "match_number": 5,
+        "status": "completed",
+        "winner": "Colombia"
+    },
+    {
+        "away_team": {
+            "code": "JPN",
+            "country": "Japan",
+            "goals": 1
+        },
+        "away_team_events": [
+            {
+                "id": 95,
+                "player": "Honda",
+                "time": "16",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 100,
+                "player": "Yoshida",
+                "time": "23",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 98,
+                "player": "Endo",
+                "time": "54",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 96,
+                "player": "Morishige",
+                "time": "64",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 99,
+                "player": "Okubo",
+                "time": "67",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 97,
+                "player": "Kakitani",
+                "time": "86",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-14T22:00:00.000-03:00",
+        "home_team": {
+            "code": "CIV",
+            "country": "Ivory Coast",
+            "goals": 2
+        },
+        "home_team_events": [
+            {
+                "id": 94,
+                "player": "Bamba",
+                "time": "54",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 89,
+                "player": "Zokora",
+                "time": "58",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 93,
+                "player": "Drogba",
+                "time": "62",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 91,
+                "player": "B. Wilfried",
+                "time": "64",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 90,
+                "player": "Gervinho",
+                "time": "66",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 88,
+                "player": "Djakpa",
+                "time": "75",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 92,
+                "player": "Ya Konan",
+                "time": "78",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Arena Pernambuco",
+        "match_number": 6,
+        "status": "completed",
+        "winner": "Ivory Coast"
+    },
+    {
+        "away_team": {
+            "code": "CRC",
+            "country": "Costa Rica",
+            "goals": 3
+        },
+        "away_team_events": [
+            {
+                "id": 84,
+                "player": "Campbell J.",
+                "time": "54",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 82,
+                "player": "Duarte O.",
+                "time": "57",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 86,
+                "player": "Cubero J.",
+                "time": "74",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 85,
+                "player": "Ure\u00d1a M.",
+                "time": "83",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 87,
+                "player": "Ure\u00d1a M.",
+                "time": "84",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 83,
+                "player": "Barrantes M.",
+                "time": "89",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-14T16:00:00.000-03:00",
+        "home_team": {
+            "code": "URU",
+            "country": "Uruguay",
+            "goals": 1
+        },
+        "home_team_events": [
+            {
+                "id": 80,
+                "player": "E. Cavani",
+                "time": "24",
+                "type_of_event": "goal-penalty"
+            },
+            {
+                "id": 74,
+                "player": "D. Lugano",
+                "time": "50",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 75,
+                "player": "W. Gargano",
+                "time": "56",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 76,
+                "player": "A. Gonzalez",
+                "time": "60",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 78,
+                "player": "N. Lodeiro",
+                "time": "60",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 77,
+                "player": "A. Hernandez",
+                "time": "76",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 81,
+                "player": "M. Caceres",
+                "time": "81",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 79,
+                "player": "M. Pereira",
+                "time": "904",
+                "type_of_event": "red-card"
+            }
+        ],
+        "location": "Estadio Castelao",
+        "match_number": 7,
+        "status": "completed",
+        "winner": "Costa Rica"
+    },
+    {
+        "away_team": {
+            "code": "ITA",
+            "country": "Italy",
+            "goals": 2
+        },
+        "away_team_events": [
+            {
+                "id": 7,
+                "player": "Marchisio",
+                "time": "35",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 8,
+                "player": "Balotelli",
+                "time": "50",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 10,
+                "player": "Thiago Motta",
+                "time": "57",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 9,
+                "player": "Immobile",
+                "time": "73",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 6,
+                "player": "Parolo",
+                "time": "79",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-14T19:00:00.000-03:00",
+        "home_team": {
+            "code": "ENG",
+            "country": "England",
+            "goals": 1
+        },
+        "home_team_events": [
+            {
+                "id": 1,
+                "player": "Sturridge",
+                "time": "37",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 3,
+                "player": "Barkley",
+                "time": "61",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 4,
+                "player": "Wilshere",
+                "time": "73",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 2,
+                "player": "Lallana",
+                "time": "80",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 5,
+                "player": "Sterling",
+                "time": "902",
+                "type_of_event": "yellow-card"
+            }
+        ],
+        "location": "Arena Amazonia",
+        "match_number": 8,
+        "status": "completed",
+        "winner": "Italy"
+    },
+    {
+        "away_team": {
+            "code": "ECU",
+            "country": "Ecuador",
+            "goals": 1
+        },
+        "away_team_events": [
+            {
+                "id": 109,
+                "player": "E. Valencia",
+                "time": "22",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 106,
+                "player": "Paredes",
+                "time": "53",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 108,
+                "player": "Arroyo",
+                "time": "70",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 107,
+                "player": "Rojas",
+                "time": "77",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-15T13:00:00.000-03:00",
+        "home_team": {
+            "code": "SUI",
+            "country": "Switzerland",
+            "goals": 2
+        },
+        "home_team_events": [
+            {
+                "id": 101,
+                "player": "Mehmedi",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 105,
+                "player": "Mehmedi",
+                "time": "48",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 102,
+                "player": "Seferovic",
+                "time": "75",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 103,
+                "player": "Djourou",
+                "time": "84",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 104,
+                "player": "Seferovic",
+                "time": "903",
+                "type_of_event": "goal"
+            }
+        ],
+        "location": "Estadio Nacional",
+        "match_number": 9,
+        "status": "completed",
+        "winner": "Switzerland"
+    },
+    {
+        "away_team": {
+            "code": "HON",
+            "country": "Honduras",
+            "goals": 0
+        },
+        "away_team_events": [
+            {
+                "id": 120,
+                "player": "W. Palacios",
+                "time": "28",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 121,
+                "player": "W. Palacios",
+                "time": "43",
+                "type_of_event": "yellow-card-second"
+            },
+            {
+                "id": 122,
+                "player": "Boniek",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 119,
+                "player": "O. Chavez",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 118,
+                "player": "Valladares",
+                "time": "48",
+                "type_of_event": "goal-own"
+            },
+            {
+                "id": 125,
+                "player": "Boniek",
+                "time": "53",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 123,
+                "player": "Claros",
+                "time": "58",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 124,
+                "player": "Garrido",
+                "time": "83",
+                "type_of_event": "yellow-card"
+            }
+        ],
+        "datetime": "2014-06-15T16:00:00.000-03:00",
+        "home_team": {
+            "code": "FRA",
+            "country": "France",
+            "goals": 3
+        },
+        "home_team_events": [
+            {
+                "id": 110,
+                "player": "Evra",
+                "time": "7",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 116,
+                "player": "Pogba",
+                "time": "28",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 114,
+                "player": "Benzema",
+                "time": "45",
+                "type_of_event": "goal-penalty"
+            },
+            {
+                "id": 117,
+                "player": "Sissoko",
+                "time": "57",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 112,
+                "player": "Mavuba",
+                "time": "65",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 115,
+                "player": "Benzema",
+                "time": "72",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 113,
+                "player": "Giroud",
+                "time": "78",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 111,
+                "player": "Cabaye",
+                "time": "452",
+                "type_of_event": "yellow-card"
+            }
+        ],
+        "location": "Estadio Beira-Rio",
+        "match_number": 10,
+        "status": "completed",
+        "winner": "France"
+    },
+    {
+        "away_team": {
+            "code": "BIH",
+            "country": "Bosnia and Herzegovina",
+            "goals": 1
+        },
+        "away_team_events": [
+            {
+                "id": 132,
+                "player": "Kola\u0160inac",
+                "time": "3",
+                "type_of_event": "goal-own"
+            },
+            {
+                "id": 131,
+                "player": "Spahi\u0106",
+                "time": "63",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 134,
+                "player": "Ibi\u0160evi\u0106",
+                "time": "69",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 135,
+                "player": "Vi\u0160\u0106a",
+                "time": "71",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 133,
+                "player": "Medunjanin",
+                "time": "74",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 136,
+                "player": "Ibi\u0160evi\u0106",
+                "time": "85",
+                "type_of_event": "goal"
+            }
+        ],
+        "datetime": "2014-06-15T19:00:00.000-03:00",
+        "home_team": {
+            "code": "ARG",
+            "country": "Argentina",
+            "goals": 2
+        },
+        "home_team_events": [
+            {
+                "id": 129,
+                "player": "Rojo",
+                "time": "25",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 128,
+                "player": "Higuain",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 126,
+                "player": "Gago",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 127,
+                "player": "Messi",
+                "time": "65",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 130,
+                "player": "Biglia",
+                "time": "87",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Maracan\u00e3 - Est\u00e1dio Jornalista M\u00e1rio Filho",
+        "match_number": 11,
+        "status": "completed",
+        "winner": "Argentina"
+    },
+    {
+        "away_team": {
+            "code": "NGA",
+            "country": "Nigeria",
+            "goals": 0
+        },
+        "away_team_events": [
+            {
+                "id": 153,
+                "player": "Yobo",
+                "time": "29",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 152,
+                "player": "Ameobi",
+                "time": "52",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 154,
+                "player": "Odemwingie",
+                "time": "69",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-16T16:00:00.000-03:00",
+        "home_team": {
+            "code": "IRN",
+            "country": "Iran",
+            "goals": 0
+        },
+        "home_team_events": [
+            {
+                "id": 151,
+                "player": "Alireza",
+                "time": "73",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 150,
+                "player": "Andranik",
+                "time": "75",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 149,
+                "player": "Masoud. Sh",
+                "time": "89",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Arena da Baixada",
+        "match_number": 12,
+        "status": "completed",
+        "winner": "Draw"
+    },
+    {
+        "away_team": {
+            "code": "POR",
+            "country": "Portugal",
+            "goals": 0
+        },
+        "away_team_events": [
+            {
+                "id": 148,
+                "player": "J. Pereira",
+                "time": "11",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 147,
+                "player": "\u00c9der",
+                "time": "28",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 144,
+                "player": "Pepe",
+                "time": "37",
+                "type_of_event": "red-card"
+            },
+            {
+                "id": 145,
+                "player": "R. Costa",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 146,
+                "player": "A. Almeida",
+                "time": "65",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-16T13:00:00.000-03:00",
+        "home_team": {
+            "code": "GER",
+            "country": "Germany",
+            "goals": 4
+        },
+        "home_team_events": [
+            {
+                "id": 140,
+                "player": "M\u00dcller",
+                "time": "12",
+                "type_of_event": "goal-penalty"
+            },
+            {
+                "id": 137,
+                "player": "Hummels",
+                "time": "32",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 139,
+                "player": "Sch\u00dcrrle",
+                "time": "63",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 138,
+                "player": "Mustafi",
+                "time": "73",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 142,
+                "player": "M\u00dcller",
+                "time": "78",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 143,
+                "player": "Podolski",
+                "time": "82",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 141,
+                "player": "M\u00dcller",
+                "time": "451",
+                "type_of_event": "goal"
+            }
+        ],
+        "location": "Arena Fonte Nova",
+        "match_number": 13,
+        "status": "completed",
+        "winner": "Germany"
+    },
+    {
+        "away_team": {
+            "code": "USA",
+            "country": "USA",
+            "goals": 2
+        },
+        "away_team_events": [
+            {
+                "id": 162,
+                "player": "Dempsey",
+                "time": "1",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 164,
+                "player": "Johannsson",
+                "time": "23",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 161,
+                "player": "Brooks",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 163,
+                "player": "Zusi",
+                "time": "77",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 165,
+                "player": "Brooks",
+                "time": "86",
+                "type_of_event": "goal"
+            }
+        ],
+        "datetime": "2014-06-16T19:00:00.000-03:00",
+        "home_team": {
+            "code": "GHA",
+            "country": "Ghana",
+            "goals": 1
+        },
+        "home_team_events": [
+            {
+                "id": 159,
+                "player": "Rabiu",
+                "time": "30",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 158,
+                "player": "Prince",
+                "time": "59",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 160,
+                "player": "Essien",
+                "time": "71",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 155,
+                "player": "Adomah",
+                "time": "78",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 156,
+                "player": "A. Ayew",
+                "time": "82",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 157,
+                "player": "Muntari",
+                "time": "902",
+                "type_of_event": "yellow-card"
+            }
+        ],
+        "location": "Estadio das Dunas",
+        "match_number": 14,
+        "status": "completed",
+        "winner": "USA"
+    },
+    {
+        "away_team": {
+            "code": "ALG",
+            "country": "Algeria",
+            "goals": 1
+        },
+        "away_team_events": [
+            {
+                "id": 172,
+                "player": "Feghouli",
+                "time": "25",
+                "type_of_event": "goal-penalty"
+            },
+            {
+                "id": 174,
+                "player": "Bentaleb",
+                "time": "34",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 175,
+                "player": "Slimani",
+                "time": "66",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 176,
+                "player": "Lacen",
+                "time": "71",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 173,
+                "player": "Ghilas",
+                "time": "84",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-17T13:00:00.000-03:00",
+        "home_team": {
+            "code": "BEL",
+            "country": "Belgium",
+            "goals": 2
+        },
+        "home_team_events": [
+            {
+                "id": 166,
+                "player": "Vertonghen",
+                "time": "24",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 169,
+                "player": "Mertens",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 167,
+                "player": "Origi",
+                "time": "58",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 168,
+                "player": "Fellaini",
+                "time": "65",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 170,
+                "player": "Fellaini",
+                "time": "70",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 171,
+                "player": "Mertens",
+                "time": "80",
+                "type_of_event": "goal"
+            }
+        ],
+        "location": "Estadio Mineirao",
+        "match_number": 15,
+        "status": "completed",
+        "winner": "Belgium"
+    },
+    {
+        "away_team": {
+            "code": "KOR",
+            "country": "Korea Republic",
+            "goals": 1
+        },
+        "away_team_events": [
+            {
+                "id": 192,
+                "player": "H M Son",
+                "time": "13",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 196,
+                "player": "S Y Ki",
+                "time": "30",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 194,
+                "player": "K H Lee",
+                "time": "56",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 198,
+                "player": "K H Lee",
+                "time": "68",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 197,
+                "player": "S H Hwang",
+                "time": "73",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 193,
+                "player": "B K Kim",
+                "time": "84",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 195,
+                "player": "J C Koo",
+                "time": "90",
+                "type_of_event": "yellow-card"
+            }
+        ],
+        "datetime": "2014-06-17T19:00:00.000-03:00",
+        "home_team": {
+            "code": "RUS",
+            "country": "Russia",
+            "goals": 1
+        },
+        "home_team_events": [
+            {
+                "id": 188,
+                "player": "Shatov",
+                "time": "49",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 189,
+                "player": "Dzagoev",
+                "time": "59",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 190,
+                "player": "Kerzhakov",
+                "time": "71",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 187,
+                "player": "Denisov",
+                "time": "72",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 191,
+                "player": "Kerzhakov",
+                "time": "74",
+                "type_of_event": "goal"
+            }
+        ],
+        "location": "Arena Pantanal",
+        "match_number": 16,
+        "status": "completed",
+        "winner": "Draw"
+    },
+    {
+        "away_team": {
+            "code": "MEX",
+            "country": "Mexico",
+            "goals": 0
+        },
+        "away_team_events": [
+            {
+                "id": 185,
+                "player": "P Aguilar",
+                "time": "59",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 186,
+                "player": "J Vazquez",
+                "time": "62",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 184,
+                "player": "J Hernandez",
+                "time": "74",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 182,
+                "player": "M Fabian",
+                "time": "76",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 183,
+                "player": "R Jimenez",
+                "time": "84",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-17T16:00:00.000-03:00",
+        "home_team": {
+            "code": "BRA",
+            "country": "Brazil",
+            "goals": 0
+        },
+        "home_team_events": [
+            {
+                "id": 180,
+                "player": "Ramires",
+                "time": "45",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 181,
+                "player": "Bernard",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 178,
+                "player": "J\u00d4",
+                "time": "68",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 177,
+                "player": "T Silva",
+                "time": "79",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 179,
+                "player": "Willian",
+                "time": "84",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Estadio Castelao",
+        "match_number": 17,
+        "status": "completed",
+        "winner": "Draw"
+    },
+    {
+        "away_team": {
+            "code": "CRO",
+            "country": "Croatia",
+            "goals": 4
+        },
+        "away_team_events": [
+            {
+                "id": 231,
+                "player": "Oli\u0106",
+                "time": "11",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 227,
+                "player": "Peri\u0160i\u0106",
+                "time": "48",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 229,
+                "player": "Mand\u017duki\u0106",
+                "time": "61",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 232,
+                "player": "Eduardo",
+                "time": "69",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 233,
+                "player": "Kova\u010ci\u0106",
+                "time": "72",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 230,
+                "player": "Mand\u017duki\u0106",
+                "time": "73",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 228,
+                "player": "Rebi\u0106",
+                "time": "78",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 234,
+                "player": "Eduardo",
+                "time": "89",
+                "type_of_event": "yellow-card"
+            }
+        ],
+        "datetime": "2014-06-18T19:00:00.000-03:00",
+        "home_team": {
+            "code": "CMR",
+            "country": "Cameroon",
+            "goals": 0
+        },
+        "home_team_events": [
+            {
+                "id": 223,
+                "player": "Song",
+                "time": "40",
+                "type_of_event": "red-card"
+            },
+            {
+                "id": 226,
+                "player": "Nounkeu",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 224,
+                "player": "Webo",
+                "time": "70",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 225,
+                "player": "Salli",
+                "time": "75",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Arena Amazonia",
+        "match_number": 18,
+        "status": "completed",
+        "winner": "Croatia"
+    },
+    {
+        "away_team": {
+            "code": "CHI",
+            "country": "Chile",
+            "goals": 2
+        },
+        "away_team_events": [
+            {
+                "id": 219,
+                "player": "Vargas",
+                "time": "20",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 217,
+                "player": "Vidal",
+                "time": "26",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 221,
+                "player": "Ch. Ar\u00c1nguiz",
+                "time": "43",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 216,
+                "player": "Mena",
+                "time": "61",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 222,
+                "player": "Guti\u00c9rrez",
+                "time": "64",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 220,
+                "player": "Valdivia",
+                "time": "85",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 218,
+                "player": "Carmona",
+                "time": "88",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-18T16:00:00.000-03:00",
+        "home_team": {
+            "code": "ESP",
+            "country": "Spain",
+            "goals": 0
+        },
+        "home_team_events": [
+            {
+                "id": 213,
+                "player": "Alonso",
+                "time": "41",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 214,
+                "player": "Koke",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 215,
+                "player": "Torres",
+                "time": "64",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 212,
+                "player": "S. Cazorla",
+                "time": "76",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Maracan\u00e3 - Est\u00e1dio Jornalista M\u00e1rio Filho",
+        "match_number": 19,
+        "status": "completed",
+        "winner": "Chile"
+    },
+    {
+        "away_team": {
+            "code": "NED",
+            "country": "Netherlands",
+            "goals": 3
+        },
+        "away_team_events": [
+            {
+                "id": 210,
+                "player": "Robben",
+                "time": "20",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 205,
+                "player": "Memphis",
+                "time": "45+3",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 207,
+                "player": "V. Persie",
+                "time": "47",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 208,
+                "player": "V. Persie",
+                "time": "58",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 211,
+                "player": "Memphis",
+                "time": "68",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 206,
+                "player": "Wijnaldum",
+                "time": "78",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 209,
+                "player": "Lens",
+                "time": "87",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-18T13:00:00.000-03:00",
+        "home_team": {
+            "code": "AUS",
+            "country": "Australia",
+            "goals": 2
+        },
+        "home_team_events": [
+            {
+                "id": 199,
+                "player": "Cahill",
+                "time": "21",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 200,
+                "player": "Cahill",
+                "time": "43",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 204,
+                "player": "Bozanic",
+                "time": "51",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 203,
+                "player": "Jedinak",
+                "time": "54",
+                "type_of_event": "goal-penalty"
+            },
+            {
+                "id": 201,
+                "player": "Halloran",
+                "time": "69",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 202,
+                "player": "Taggart",
+                "time": "77",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Estadio Beira-Rio",
+        "match_number": 20,
+        "status": "completed",
+        "winner": "Netherlands"
+    },
+    {
+        "away_team": {
+            "code": "CIV",
+            "country": "Ivory Coast",
+            "goals": 1
+        },
+        "away_team_events": [
+            {
+                "id": 240,
+                "player": "Zokora",
+                "time": "55",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 243,
+                "player": "Drogba",
+                "time": "60",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 244,
+                "player": "Kalou",
+                "time": "67",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 242,
+                "player": "Gervinho",
+                "time": "73",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 245,
+                "player": "Bolly",
+                "time": "73",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 241,
+                "player": "Tiote",
+                "time": "90",
+                "type_of_event": "yellow-card"
+            }
+        ],
+        "datetime": "2014-06-19T13:00:00.000-03:00",
+        "home_team": {
+            "code": "COL",
+            "country": "Colombia",
+            "goals": 2
+        },
+        "home_team_events": [
+            {
+                "id": 238,
+                "player": "Quintero",
+                "time": "53",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 237,
+                "player": "James",
+                "time": "64",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 239,
+                "player": "Quintero",
+                "time": "70",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 235,
+                "player": "Arias",
+                "time": "72",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 236,
+                "player": "A. Mejia",
+                "time": "79",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Estadio Nacional",
+        "match_number": 21,
+        "status": "completed",
+        "winner": "Colombia"
+    },
+    {
+        "away_team": {
+            "code": "GRE",
+            "country": "Greece",
+            "goals": 0
+        },
+        "away_team_events": [
+            {
+                "id": 258,
+                "player": "Katsouranis",
+                "time": "27",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 259,
+                "player": "Gekas",
+                "time": "35",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 260,
+                "player": "Katsouranis",
+                "time": "38",
+                "type_of_event": "yellow-card-second"
+            },
+            {
+                "id": 261,
+                "player": "Karagounis",
+                "time": "41",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 263,
+                "player": "Samaras",
+                "time": "55",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 265,
+                "player": "Salpingidis",
+                "time": "81",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 266,
+                "player": "Torosidis",
+                "time": "89",
+                "type_of_event": "yellow-card"
+            }
+        ],
+        "datetime": "2014-06-19T19:00:00.000-03:00",
+        "home_team": {
+            "code": "JPN",
+            "country": "Japan",
+            "goals": 0
+        },
+        "home_team_events": [
+            {
+                "id": 257,
+                "player": "Hasebe",
+                "time": "12",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 262,
+                "player": "Endo",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 264,
+                "player": "Kagawa",
+                "time": "57",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Estadio das Dunas",
+        "match_number": 22,
+        "status": "completed",
+        "winner": "Draw"
+    },
+    {
+        "away_team": {
+            "code": "ENG",
+            "country": "England",
+            "goals": 1
+        },
+        "away_team_events": [
+            {
+                "id": 248,
+                "player": "Barkley",
+                "time": "64",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 250,
+                "player": "Gerrard",
+                "time": "68",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 251,
+                "player": "Lallana",
+                "time": "71",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 252,
+                "player": "Rooney",
+                "time": "75",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 255,
+                "player": "Lambert",
+                "time": "87",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-19T16:00:00.000-03:00",
+        "home_team": {
+            "code": "URU",
+            "country": "Uruguay",
+            "goals": 2
+        },
+        "home_team_events": [
+            {
+                "id": 246,
+                "player": "D. Godin",
+                "time": "9",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 247,
+                "player": "L. Suarez",
+                "time": "39",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 249,
+                "player": "C. Stuani",
+                "time": "67",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 253,
+                "player": "J. Fucile",
+                "time": "79",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 254,
+                "player": "L. Suarez",
+                "time": "85",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 256,
+                "player": "S. Coates",
+                "time": "88",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Arena Corinthians",
+        "match_number": 23,
+        "status": "completed",
+        "winner": "Uruguay"
+    },
+    {
+        "away_team": {
+            "code": "CRC",
+            "country": "Costa Rica",
+            "goals": 1
+        },
+        "away_team_events": [
+            {
+                "id": 267,
+                "player": "Ruiz B.",
+                "time": "44",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 271,
+                "player": "Cubero J.",
+                "time": "68",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 273,
+                "player": "Cubero J.",
+                "time": "71",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 274,
+                "player": "Ure\u00d1a M.",
+                "time": "74",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-20T13:00:00.000-03:00",
+        "home_team": {
+            "code": "ITA",
+            "country": "Italy",
+            "goals": 0
+        },
+        "home_team_events": [
+            {
+                "id": 268,
+                "player": "Cassano",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 269,
+                "player": "Insigne",
+                "time": "57",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 270,
+                "player": "Balotelli",
+                "time": "69",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 272,
+                "player": "Cerci",
+                "time": "69",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Arena Pernambuco",
+        "match_number": 24,
+        "status": "completed",
+        "winner": "Costa Rica"
+    },
+    {
+        "away_team": {
+            "code": "FRA",
+            "country": "France",
+            "goals": 2
+        },
+        "away_team_events": [
+            {
+                "id": 276,
+                "player": "Giroud",
+                "time": "17",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 277,
+                "player": "Matuidi",
+                "time": "18",
+                "type_of_event": "goal"
+            }
+        ],
+        "datetime": "2014-06-20T16:00:00.000-03:00",
+        "home_team": {
+            "code": "SUI",
+            "country": "Switzerland",
+            "goals": 0
+        },
+        "home_team_events": [
+            {
+                "id": 275,
+                "player": "Senderos",
+                "time": "9",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Arena Fonte Nova",
+        "match_number": 25,
+        "status": "in progress",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "ECU",
+            "country": "Ecuador",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-20T19:00:00.000-03:00",
+        "home_team": {
+            "code": "HON",
+            "country": "Honduras",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena da Baixada",
+        "match_number": 26,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "IRN",
+            "country": "Iran",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-21T13:00:00.000-03:00",
+        "home_team": {
+            "code": "ARG",
+            "country": "Argentina",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Estadio Mineirao",
+        "match_number": 27,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "BIH",
+            "country": "Bosnia and Herzegovina",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-21T19:00:00.000-03:00",
+        "home_team": {
+            "code": "NGA",
+            "country": "Nigeria",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena Pantanal",
+        "match_number": 28,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "GHA",
+            "country": "Ghana",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-21T16:00:00.000-03:00",
+        "home_team": {
+            "code": "GER",
+            "country": "Germany",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Estadio Castelao",
+        "match_number": 29,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "POR",
+            "country": "Portugal",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-22T19:00:00.000-03:00",
+        "home_team": {
+            "code": "USA",
+            "country": "USA",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena Amazonia",
+        "match_number": 30,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "RUS",
+            "country": "Russia",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-22T13:00:00.000-03:00",
+        "home_team": {
+            "code": "BEL",
+            "country": "Belgium",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Maracan\u00e3 - Est\u00e1dio Jornalista M\u00e1rio Filho",
+        "match_number": 31,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "ALG",
+            "country": "Algeria",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-22T16:00:00.000-03:00",
+        "home_team": {
+            "code": "KOR",
+            "country": "Korea Republic",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Estadio Beira-Rio",
+        "match_number": 32,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "BRA",
+            "country": "Brazil",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-23T17:00:00.000-03:00",
+        "home_team": {
+            "code": "CMR",
+            "country": "Cameroon",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Estadio Nacional",
+        "match_number": 33,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "MEX",
+            "country": "Mexico",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-23T17:00:00.000-03:00",
+        "home_team": {
+            "code": "CRO",
+            "country": "Croatia",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena Pernambuco",
+        "match_number": 34,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "ESP",
+            "country": "Spain",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-23T13:00:00.000-03:00",
+        "home_team": {
+            "code": "AUS",
+            "country": "Australia",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena da Baixada",
+        "match_number": 35,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "CHI",
+            "country": "Chile",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-23T13:00:00.000-03:00",
+        "home_team": {
+            "code": "NED",
+            "country": "Netherlands",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena Corinthians",
+        "match_number": 36,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "COL",
+            "country": "Colombia",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-24T17:00:00.000-03:00",
+        "home_team": {
+            "code": "JPN",
+            "country": "Japan",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena Pantanal",
+        "match_number": 37,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "CIV",
+            "country": "Ivory Coast",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-24T17:00:00.000-03:00",
+        "home_team": {
+            "code": "GRE",
+            "country": "Greece",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Estadio Castelao",
+        "match_number": 38,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "URU",
+            "country": "Uruguay",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-24T13:00:00.000-03:00",
+        "home_team": {
+            "code": "ITA",
+            "country": "Italy",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Estadio das Dunas",
+        "match_number": 39,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "ENG",
+            "country": "England",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-24T13:00:00.000-03:00",
+        "home_team": {
+            "code": "CRC",
+            "country": "Costa Rica",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Estadio Mineirao",
+        "match_number": 40,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "SUI",
+            "country": "Switzerland",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-25T17:00:00.000-03:00",
+        "home_team": {
+            "code": "HON",
+            "country": "Honduras",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena Amazonia",
+        "match_number": 41,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "FRA",
+            "country": "France",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-25T17:00:00.000-03:00",
+        "home_team": {
+            "code": "ECU",
+            "country": "Ecuador",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Maracan\u00e3 - Est\u00e1dio Jornalista M\u00e1rio Filho",
+        "match_number": 42,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "ARG",
+            "country": "Argentina",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-25T13:00:00.000-03:00",
+        "home_team": {
+            "code": "NGA",
+            "country": "Nigeria",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Estadio Beira-Rio",
+        "match_number": 43,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "IRN",
+            "country": "Iran",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-25T13:00:00.000-03:00",
+        "home_team": {
+            "code": "BIH",
+            "country": "Bosnia and Herzegovina",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena Fonte Nova",
+        "match_number": 44,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "GER",
+            "country": "Germany",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-26T13:00:00.000-03:00",
+        "home_team": {
+            "code": "USA",
+            "country": "USA",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena Pernambuco",
+        "match_number": 45,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "GHA",
+            "country": "Ghana",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-26T13:00:00.000-03:00",
+        "home_team": {
+            "code": "POR",
+            "country": "Portugal",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Estadio Nacional",
+        "match_number": 46,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "BEL",
+            "country": "Belgium",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-26T17:00:00.000-03:00",
+        "home_team": {
+            "code": "KOR",
+            "country": "Korea Republic",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena Corinthians",
+        "match_number": 47,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "RUS",
+            "country": "Russia",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-26T17:00:00.000-03:00",
+        "home_team": {
+            "code": "ALG",
+            "country": "Algeria",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena da Baixada",
+        "match_number": 48,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "datetime": "2014-06-28T13:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "location": "Estadio Mineirao",
+        "match_number": 49,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[2D]",
+        "datetime": "2014-06-28T17:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[1C]",
+        "location": "Maracan\u00e3 - Est\u00e1dio Jornalista M\u00e1rio Filho",
+        "match_number": 50,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[2A]",
+        "datetime": "2014-06-29T13:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[1B]",
+        "location": "Estadio Castelao",
+        "match_number": 51,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[2C]",
+        "datetime": "2014-06-29T17:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[1D]",
+        "location": "Arena Pernambuco",
+        "match_number": 52,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[2F]",
+        "datetime": "2014-06-30T13:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[1E]",
+        "location": "Estadio Nacional",
+        "match_number": 53,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[2H]",
+        "datetime": "2014-06-30T17:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[1G]",
+        "location": "Estadio Beira-Rio",
+        "match_number": 54,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[2E]",
+        "datetime": "2014-07-01T13:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[1F]",
+        "location": "Arena Corinthians",
+        "match_number": 55,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[2G]",
+        "datetime": "2014-07-01T17:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[1H]",
+        "location": "Arena Fonte Nova",
+        "match_number": 56,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[W50]",
+        "datetime": "2014-07-04T17:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[W49]",
+        "location": "Estadio Castelao",
+        "match_number": 57,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[W54]",
+        "datetime": "2014-07-04T13:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[W53]",
+        "location": "Maracan\u00e3 - Est\u00e1dio Jornalista M\u00e1rio Filho",
+        "match_number": 58,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[W52]",
+        "datetime": "2014-07-05T17:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[W51]",
+        "location": "Arena Fonte Nova",
+        "match_number": 59,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[W56]",
+        "datetime": "2014-07-05T13:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[W55]",
+        "location": "Estadio Nacional",
+        "match_number": 60,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[W58]",
+        "datetime": "2014-07-08T17:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[W57]",
+        "location": "Estadio Mineirao",
+        "match_number": 61,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[W60]",
+        "datetime": "2014-07-09T17:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[W59]",
+        "location": "Arena Corinthians",
+        "match_number": 62,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[L62]",
+        "datetime": "2014-07-12T17:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[L61]",
+        "location": "Estadio Nacional",
+        "match_number": 63,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": [
+            "away_team_tbd"
+        ],
+        "away_team_events": "no events available for this match",
+        "away_team_tbd": "[W62]",
+        "datetime": "2014-07-13T16:00:00.000-03:00",
+        "home_team": [
+            "home_team_tbd"
+        ],
+        "home_team_events": "no events available for this match",
+        "home_team_tbd": "[W61]",
+        "location": "Maracan\u00e3 - Est\u00e1dio Jornalista M\u00e1rio Filho",
+        "match_number": 64,
+        "status": "future",
+        "winner": null
+    }
+]

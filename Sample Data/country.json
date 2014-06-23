@@ -1,0 +1,128 @@
+// http://worldcup.sfg.io/matches/country?fifa_code=USA
+[
+    {
+        "away_team": {
+            "code": "USA",
+            "country": "USA",
+            "goals": 2
+        },
+        "away_team_events": [
+            {
+                "id": 162,
+                "player": "Dempsey",
+                "time": "1",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 164,
+                "player": "Johannsson",
+                "time": "23",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 161,
+                "player": "Brooks",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 163,
+                "player": "Zusi",
+                "time": "77",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 165,
+                "player": "Brooks",
+                "time": "86",
+                "type_of_event": "goal"
+            }
+        ],
+        "datetime": "2014-06-16T19:00:00.000-03:00",
+        "home_team": {
+            "code": "GHA",
+            "country": "Ghana",
+            "goals": 1
+        },
+        "home_team_events": [
+            {
+                "id": 159,
+                "player": "Rabiu",
+                "time": "30",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 158,
+                "player": "Prince",
+                "time": "59",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 160,
+                "player": "Essien",
+                "time": "71",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 155,
+                "player": "Adomah",
+                "time": "78",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 156,
+                "player": "A. Ayew",
+                "time": "82",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 157,
+                "player": "Muntari",
+                "time": "902",
+                "type_of_event": "yellow-card"
+            }
+        ],
+        "location": "Estadio das Dunas",
+        "match_number": 14,
+        "status": "completed",
+        "winner": "USA"
+    },
+    {
+        "away_team": {
+            "code": "POR",
+            "country": "Portugal",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-22T19:00:00.000-03:00",
+        "home_team": {
+            "code": "USA",
+            "country": "USA",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena Amazonia",
+        "match_number": 30,
+        "status": "future",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "GER",
+            "country": "Germany",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-26T13:00:00.000-03:00",
+        "home_team": {
+            "code": "USA",
+            "country": "USA",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena Pernambuco",
+        "match_number": 45,
+        "status": "future",
+        "winner": null
+    }
+]

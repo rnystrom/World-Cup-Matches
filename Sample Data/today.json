@@ -1,0 +1,130 @@
+// http://worldcup.sfg.io/matches/today
+[
+    {
+        "away_team": {
+            "code": "CRC",
+            "country": "Costa Rica",
+            "goals": 1
+        },
+        "away_team_events": [
+            {
+                "id": 267,
+                "player": "Ruiz B.",
+                "time": "44",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 271,
+                "player": "Cubero J.",
+                "time": "68",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 273,
+                "player": "Cubero J.",
+                "time": "71",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 274,
+                "player": "Ure\u00d1a M.",
+                "time": "74",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "datetime": "2014-06-20T13:00:00.000-03:00",
+        "home_team": {
+            "code": "ITA",
+            "country": "Italy",
+            "goals": 0
+        },
+        "home_team_events": [
+            {
+                "id": 268,
+                "player": "Cassano",
+                "time": "46",
+                "type_of_event": "substitution-in halftime"
+            },
+            {
+                "id": 269,
+                "player": "Insigne",
+                "time": "57",
+                "type_of_event": "substitution-in"
+            },
+            {
+                "id": 270,
+                "player": "Balotelli",
+                "time": "69",
+                "type_of_event": "yellow-card"
+            },
+            {
+                "id": 272,
+                "player": "Cerci",
+                "time": "69",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Arena Pernambuco",
+        "match_number": 24,
+        "status": "completed",
+        "winner": "Costa Rica"
+    },
+    {
+        "away_team": {
+            "code": "FRA",
+            "country": "France",
+            "goals": 2
+        },
+        "away_team_events": [
+            {
+                "id": 276,
+                "player": "Giroud",
+                "time": "17",
+                "type_of_event": "goal"
+            },
+            {
+                "id": 277,
+                "player": "Matuidi",
+                "time": "18",
+                "type_of_event": "goal"
+            }
+        ],
+        "datetime": "2014-06-20T16:00:00.000-03:00",
+        "home_team": {
+            "code": "SUI",
+            "country": "Switzerland",
+            "goals": 0
+        },
+        "home_team_events": [
+            {
+                "id": 275,
+                "player": "Senderos",
+                "time": "9",
+                "type_of_event": "substitution-in"
+            }
+        ],
+        "location": "Arena Fonte Nova",
+        "match_number": 25,
+        "status": "in progress",
+        "winner": null
+    },
+    {
+        "away_team": {
+            "code": "ECU",
+            "country": "Ecuador",
+            "goals": 0
+        },
+        "away_team_events": [],
+        "datetime": "2014-06-20T19:00:00.000-03:00",
+        "home_team": {
+            "code": "HON",
+            "country": "Honduras",
+            "goals": 0
+        },
+        "home_team_events": [],
+        "location": "Arena da Baixada",
+        "match_number": 26,
+        "status": "future",
+        "winner": null
+    }
+]

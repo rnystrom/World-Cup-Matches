@@ -24,6 +24,27 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ProximaNova-Black.otf</string>
+		<string>ProximaNova-Bold.otf</string>
+		<string>ProximaNova-BoldIt.otf</string>
+		<string>ProximaNova-Extrabold.otf</string>
+		<string>ProximaNova-Light.otf</string>
+		<string>ProximaNova-LightItalic.otf</string>
+		<string>ProximaNova-Regular.otf</string>
+		<string>ProximaNova-RegularItalic.otf</string>
+		<string>ProximaNova-Semibold.otf</string>
+		<string>ProximaNova-SemiboldItalic.otf</string>
+		<string>ClearSans-Bold.ttf</string>
+		<string>ClearSans-Italic.ttf</string>
+		<string>ClearSans-BoldItalic.ttf</string>
+		<string>ClearSans-Light.ttf</string>
+		<string>ClearSans-Medium.ttf</string>
+		<string>ClearSans-MediumItalic.ttf</string>
+		<string>ClearSans-Regular.ttf</string>
+		<string>ClearSans-Thin.ttf</string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
