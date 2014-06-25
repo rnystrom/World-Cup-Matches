@@ -14,6 +14,7 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "WCDetailController.h"
 #import "WCDetailTransitionController.h"
+#import <POP.h>
 
 @interface WCMatchesController ()
 

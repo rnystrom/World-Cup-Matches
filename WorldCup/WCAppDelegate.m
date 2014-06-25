@@ -23,7 +23,7 @@
                                                            NSForegroundColorAttributeName: [UIColor whiteColor],
                                                            NSFontAttributeName: [UIFont fontWithName:@"ProximaNova-Semibold" size:18],
                                                            }];
-    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:131/255.f green:193/255.f blue:66/255.f alpha:1]];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:77/255.f green:179/255.f blue:76/255.f alpha:1]];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     
     return YES;

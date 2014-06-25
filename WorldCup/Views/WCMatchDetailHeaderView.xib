@@ -41,7 +41,7 @@
                     </constraints>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkc-5g-FaY" userLabel="Home Score">
-                    <rect key="frame" x="93" y="26" width="22" height="48"/>
+                    <rect key="frame" x="98" y="26" width="22" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="40"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -66,7 +66,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtz-n4-F1l" userLabel="Away Score">
-                    <rect key="frame" x="205" y="26" width="22" height="48"/>
+                    <rect key="frame" x="200" y="26" width="22" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="40"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -92,12 +92,12 @@
                 <constraint firstAttribute="centerY" secondItem="hdc-fx-5kZ" secondAttribute="centerY" id="UIH-mN-aVk"/>
                 <constraint firstAttribute="centerX" secondItem="hdc-fx-5kZ" secondAttribute="centerX" id="Va0-ve-ECe"/>
                 <constraint firstAttribute="centerY" secondItem="mkc-5g-FaY" secondAttribute="centerY" id="WQx-Fh-V8O"/>
-                <constraint firstItem="yws-wV-kHB" firstAttribute="leading" secondItem="Xtz-n4-F1l" secondAttribute="trailing" constant="8" id="b8I-Bg-ocS"/>
+                <constraint firstItem="yws-wV-kHB" firstAttribute="leading" secondItem="Xtz-n4-F1l" secondAttribute="trailing" constant="13" id="b8I-Bg-ocS"/>
                 <constraint firstAttribute="trailing" secondItem="yws-wV-kHB" secondAttribute="trailing" constant="5" id="bL9-gB-cdS"/>
                 <constraint firstItem="kn6-Ce-k3n" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="lu7-4c-tN7"/>
                 <constraint firstAttribute="centerY" secondItem="Xtz-n4-F1l" secondAttribute="centerY" id="nHo-oW-eco"/>
                 <constraint firstItem="kn6-Ce-k3n" firstAttribute="top" secondItem="2UY-8K-xTy" secondAttribute="bottom" constant="3" id="oYz-RT-IbJ"/>
-                <constraint firstItem="mkc-5g-FaY" firstAttribute="leading" secondItem="kn6-Ce-k3n" secondAttribute="trailing" constant="8" id="uUD-uB-Tr1"/>
+                <constraint firstItem="mkc-5g-FaY" firstAttribute="leading" secondItem="kn6-Ce-k3n" secondAttribute="trailing" constant="13" id="uUD-uB-Tr1"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>

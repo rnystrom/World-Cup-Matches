@@ -39,9 +39,11 @@
     [self.view addSubview:self.scrollView];
     
     UIButton *close = [UIButton buttonWithType:UIButtonTypeCustom];
-    [close setTitle:@"X" forState:UIControlStateNormal];
+    [close setImage:[UIImage imageNamed:@"close"] forState:UIControlStateNormal];
     [close addTarget:self action:@selector(onClose:) forControlEvents:UIControlEventTouchUpInside];
-    close.frame = CGRectMake(0, 10, 44, 44);
+    // yup, hardcoding, so sue me
+    CGFloat buttonWidth = 44;
+    close.frame = CGRectMake(CGRectGetWidth(self.view.bounds) - buttonWidth - 5 /*padding*/, 20 /*status bar*/, buttonWidth, buttonWidth);
     [self.view addSubview:close];
     
     UINib *nib = [UINib nibWithNibName:@"WCMatchDetailHeaderView" bundle:nil];
@@ -50,7 +52,7 @@
     [self.scrollView addSubview:self.headerContainer];
     
     CGRect headerFrame = self.headerContainer.frame;
-    headerFrame.origin.y = 44;
+    headerFrame.origin.y = buttonWidth + 20; // derp
     self.headerContainer.frame = headerFrame;
     
     [self setupHeader];
@@ -81,21 +83,6 @@
     
     if (self.match.status == WCMatchStatusCompleted) {
         self.statusLabel.text = @"FT";
-        
-        WCTeam *winner = [self.match winner];
-        UIView *label, *score;
-        
-        if (winner == self.match.away.team) {
-            label = self.homeNameLabel;
-            score = self.homeScoreLabel;
-        }
-        else {
-            label = self.awayNameLabel;
-            score = self.awayScoreLabel;
-        }
-        
-        label.alpha = 0.4f;
-        score.alpha = 0.4f;
     }
     else if (self.match.status == WCMatchStatusInProgress) {
         self.statusLabel.text = @"Live";

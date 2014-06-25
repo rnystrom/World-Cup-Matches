@@ -56,14 +56,42 @@
 - (void)showDetailController:(WCDetailController *)detail fromMatchesController:(UIViewController *)matches context:(id<UIViewControllerContextTransitioning>)ctx {
     UIView *containerView = [ctx containerView];
     
-    UIImage *screenshot = [self blurryScreenshot];
+    UIView *screenshotView = [UIApplication sharedApplication].keyWindow;
     
-    detail.backgroundFadeView.image = screenshot;
+    UIGraphicsBeginImageContextWithOptions(screenshotView.bounds.size, NO, 0);
+    [screenshotView drawViewHierarchyInRect:screenshotView.bounds afterScreenUpdates:NO];
+    UIImage *appsnap = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
     
-    // blurview is used for alpha animation
-    UIImageView *blurView = [[UIImageView alloc] initWithImage:screenshot];
-    blurView.alpha = 0;
-    [containerView addSubview:blurView];
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+        UIImage *blur = [appsnap applyBlurWithRadius:5 tintColor:[UIColor colorWithWhite:0.1 alpha:0.6] saturationDeltaFactor:1.8 maskImage:nil];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            detail.backgroundFadeView.image = blur;
+            
+            // blurview is used for alpha animation
+            UIImageView *blurView = [[UIImageView alloc] initWithImage:blur];
+            blurView.alpha = 0;
+            // make sure index 0 since its an async op
+            [containerView insertSubview:blurView aboveSubview:matches.view];
+            
+            [UIView animateWithDuration:0.5 animations:^{
+                blurView.alpha = 1;
+            } completion:^(BOOL finished) {
+                detail.view.alpha = 0;
+                [containerView addSubview:detail.view];
+                [UIView animateWithDuration:0.15 animations:^{
+                    detail.view.alpha = 1;
+                } completion:^(BOOL finished) {
+                    [ctx completeTransition:YES];
+                }];
+            }];
+        });
+    });
+    
+//    UIImage *screenshot = [self blurryScreenshot];
+    
+//    detail.backgroundFadeView.image = screenshot;
     
     UIView *eventSnapshot = [detail.eventsContainer snapshotViewAfterScreenUpdates:YES];
     
@@ -103,6 +131,7 @@
     CGRect awayToFrame = [detail.awayFlagImageView.superview convertRect:detail.awayFlagImageView.frame toView:detail.view];
     
     POPSpringAnimation *homeSpring = [POPSpringAnimation animationWithPropertyNamed:kPOPViewFrame];
+    // trial & error on these #s
     homeSpring.springSpeed = 20;
     homeSpring.springBounciness = 10;
     homeSpring.toValue = [NSValue valueWithCGRect:homeToFrame];
@@ -121,18 +150,6 @@
     eventSpring.beginTime = CACurrentMediaTime();
     eventSpring.toValue = [NSValue valueWithCGRect:originalEventFrame];
     [eventSnapshot pop_addAnimation:eventSpring forKey:nil];
-    
-    [UIView animateWithDuration:0.5 animations:^{
-        blurView.alpha = 1;
-    } completion:^(BOOL finished) {
-        detail.view.alpha = 0;
-        [containerView addSubview:detail.view];
-        [UIView animateWithDuration:0.15 animations:^{
-            detail.view.alpha = 1;
-        } completion:^(BOOL finished) {
-            [ctx completeTransition:YES];
-        }];
-    }];
 }
 
 - (void)hideDetailController:(WCDetailController *)detail toMatchesController:(UIViewController *)matches context:(id<UIViewControllerContextTransitioning>)ctx {
