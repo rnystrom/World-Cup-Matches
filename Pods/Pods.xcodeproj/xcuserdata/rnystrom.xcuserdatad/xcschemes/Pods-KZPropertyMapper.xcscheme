@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AEE72D9A890341ECA8160872"
+               BlueprintIdentifier = "4429FECB779B4B89BB67C39B"
                BuildableName = "libPods-KZPropertyMapper.a"
                BlueprintName = "Pods-KZPropertyMapper"
                ReferencedContainer = "container:Pods.xcodeproj">

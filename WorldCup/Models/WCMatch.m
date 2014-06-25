@@ -100,10 +100,13 @@
 }
 
 - (WCTeam *)winner {
-    if (self.away.goals > self.home.goals) {
+    NSInteger home = self.home.goals.integerValue;
+    NSInteger away = self.away.goals.integerValue;
+    
+    if (away > home) {
         return self.away.team;
     }
-    else if (self.home.goals > self.away.goals) {
+    else if (home > away) {
         return self.home.team;
     }
     return nil;

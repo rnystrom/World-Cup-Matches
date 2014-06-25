@@ -14,7 +14,7 @@
 
 @property (nonatomic) NSNumber *apiID;
 @property (nonatomic) NSString *player;
-@property (nonatomic) NSNumber *time;
+@property (nonatomic) NSString *time;
 @property (nonatomic) NSString *typeName;
 
 @end

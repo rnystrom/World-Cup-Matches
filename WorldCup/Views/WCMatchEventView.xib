@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WCMatchEventView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Goal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q83-Uw-GOV" userLabel="Event Name">
+                    <rect key="frame" x="147" y="35" width="27" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="31'" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pI6-Wu-Fdo" userLabel="Time">
+                    <rect key="frame" x="151" y="15" width="19" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQf-fy-ebv" userLabel="Home Player">
+                    <rect key="frame" x="86" y="12" width="50" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3h-ZQ-26C" userLabel="Away Player">
+                    <rect key="frame" x="185" y="12" width="50" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="YQf-fy-ebv" secondAttribute="centerY" constant="5" id="0KQ-Sk-lZb"/>
+                <constraint firstAttribute="centerY" secondItem="pI6-Wu-Fdo" secondAttribute="centerY" constant="5" id="LFV-ua-5KI"/>
+                <constraint firstAttribute="centerY" secondItem="M3h-ZQ-26C" secondAttribute="centerY" constant="5" id="LOv-cl-1H9"/>
+                <constraint firstItem="pI6-Wu-Fdo" firstAttribute="leading" secondItem="YQf-fy-ebv" secondAttribute="trailing" constant="15" id="Qdf-zg-Q5H"/>
+                <constraint firstAttribute="centerX" secondItem="q83-Uw-GOV" secondAttribute="centerX" id="XmC-Fk-op6"/>
+                <constraint firstAttribute="centerY" secondItem="q83-Uw-GOV" secondAttribute="centerY" constant="-15" id="igD-cP-UQa"/>
+                <constraint firstAttribute="centerX" secondItem="pI6-Wu-Fdo" secondAttribute="centerX" id="jDN-tP-uHM"/>
+                <constraint firstItem="M3h-ZQ-26C" firstAttribute="leading" secondItem="pI6-Wu-Fdo" secondAttribute="trailing" constant="15" id="jb3-xr-xmh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="awayPlayerLabel" destination="M3h-ZQ-26C" id="Vc2-Ct-nOS"/>
+                <outlet property="eventLabel" destination="q83-Uw-GOV" id="R63-eo-Qfd"/>
+                <outlet property="homePlayerLabel" destination="YQf-fy-ebv" id="Bhu-mQ-rbz"/>
+                <outlet property="timeLabel" destination="pI6-Wu-Fdo" id="EqJ-gY-NgS"/>
+            </connections>
+        </view>
+    </objects>
+</document>

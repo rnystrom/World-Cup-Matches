@@ -42,6 +42,12 @@
 		29ECE1EF1957CAC6004EEBD0 /* ProximaNova-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 29ECE1E51957CAC6004EEBD0 /* ProximaNova-SemiboldItalic.otf */; };
 		29ECE1F21957CDD2004EEBD0 /* calendar-blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 29ECE1F01957CDD2004EEBD0 /* calendar-blank.png */; };
 		29ECE1F31957CDD2004EEBD0 /* calendar-blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29ECE1F11957CDD2004EEBD0 /* calendar-blank@2x.png */; };
+		29ECE1FD195913A7004EEBD0 /* WCMatchDetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29ECE1FC195913A7004EEBD0 /* WCMatchDetailHeaderView.xib */; };
+		29ECE20419591585004EEBD0 /* WCDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ECE20219591585004EEBD0 /* WCDetailController.m */; };
+		29ECE20819591EF9004EEBD0 /* WCMatchEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ECE20719591EF9004EEBD0 /* WCMatchEventView.m */; };
+		29ECE20A19591F13004EEBD0 /* WCMatchEventView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29ECE20919591F13004EEBD0 /* WCMatchEventView.xib */; };
+		29ECE20D19592F32004EEBD0 /* UIImage+Blurring.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ECE20C19592F32004EEBD0 /* UIImage+Blurring.m */; };
+		29ECE21119592FFC004EEBD0 /* WCDetailTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ECE21019592FFC004EEBD0 /* WCDetailTransitionController.m */; };
 		489445C772934ADCBDACA1F5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68994BE894C14518865D048A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -106,6 +112,16 @@
 		29ECE1E51957CAC6004EEBD0 /* ProximaNova-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		29ECE1F01957CDD2004EEBD0 /* calendar-blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-blank.png"; sourceTree = "<group>"; };
 		29ECE1F11957CDD2004EEBD0 /* calendar-blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-blank@2x.png"; sourceTree = "<group>"; };
+		29ECE1FC195913A7004EEBD0 /* WCMatchDetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WCMatchDetailHeaderView.xib; path = Views/WCMatchDetailHeaderView.xib; sourceTree = "<group>"; };
+		29ECE20119591585004EEBD0 /* WCDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WCDetailController.h; path = Controllers/WCDetailController.h; sourceTree = "<group>"; };
+		29ECE20219591585004EEBD0 /* WCDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WCDetailController.m; path = Controllers/WCDetailController.m; sourceTree = "<group>"; };
+		29ECE20619591EF9004EEBD0 /* WCMatchEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WCMatchEventView.h; path = Views/WCMatchEventView.h; sourceTree = "<group>"; };
+		29ECE20719591EF9004EEBD0 /* WCMatchEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WCMatchEventView.m; path = Views/WCMatchEventView.m; sourceTree = "<group>"; };
+		29ECE20919591F13004EEBD0 /* WCMatchEventView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WCMatchEventView.xib; path = Views/WCMatchEventView.xib; sourceTree = "<group>"; };
+		29ECE20B19592F32004EEBD0 /* UIImage+Blurring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blurring.h"; sourceTree = "<group>"; };
+		29ECE20C19592F32004EEBD0 /* UIImage+Blurring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blurring.m"; sourceTree = "<group>"; };
+		29ECE20F19592FFC004EEBD0 /* WCDetailTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WCDetailTransitionController.h; path = Controllers/WCDetailTransitionController.h; sourceTree = "<group>"; };
+		29ECE21019592FFC004EEBD0 /* WCDetailTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WCDetailTransitionController.m; path = Controllers/WCDetailTransitionController.m; sourceTree = "<group>"; };
 		54F5346DDF4341C2A2EE73DA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		68994BE894C14518865D048A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -177,6 +193,7 @@
 				29624A121954D133008F0E06 /* Models */,
 				29C983DD1955F8F100450B23 /* Controllers */,
 				29ECDDC619570C8B004EEBD0 /* Views */,
+				29ECE20E19592FC7004EEBD0 /* Categories */,
 			);
 			name = Classes;
 			path = WorldCup;
@@ -268,6 +285,10 @@
 				29BA8DEC19551F3900D36AE1 /* WCMatchesController.m */,
 				29C983DE1955F90300450B23 /* WCTeamsController.h */,
 				29C983DF1955F90300450B23 /* WCTeamsController.m */,
+				29ECE20119591585004EEBD0 /* WCDetailController.h */,
+				29ECE20219591585004EEBD0 /* WCDetailController.m */,
+				29ECE20F19592FFC004EEBD0 /* WCDetailTransitionController.h */,
+				29ECE21019592FFC004EEBD0 /* WCDetailTransitionController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -278,6 +299,10 @@
 				29ECDDC119570C85004EEBD0 /* WCMatchCell.h */,
 				29ECDDC219570C85004EEBD0 /* WCMatchCell.m */,
 				29ECDDC719572919004EEBD0 /* WCMatchContainerView.xib */,
+				29ECE1FC195913A7004EEBD0 /* WCMatchDetailHeaderView.xib */,
+				29ECE20619591EF9004EEBD0 /* WCMatchEventView.h */,
+				29ECE20719591EF9004EEBD0 /* WCMatchEventView.m */,
+				29ECE20919591F13004EEBD0 /* WCMatchEventView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -308,6 +333,15 @@
 			);
 			name = Fonts;
 			path = Resources/Fonts;
+			sourceTree = "<group>";
+		};
+		29ECE20E19592FC7004EEBD0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				29ECE20B19592F32004EEBD0 /* UIImage+Blurring.h */,
+				29ECE20C19592F32004EEBD0 /* UIImage+Blurring.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,7 +435,9 @@
 				29ECE1E81957CAC6004EEBD0 /* ProximaNova-BoldIt.otf in Resources */,
 				29ECE1E61957CAC6004EEBD0 /* ProximaNova-Black.otf in Resources */,
 				29ECE1EE1957CAC6004EEBD0 /* ProximaNova-Semibold.otf in Resources */,
+				29ECE1FD195913A7004EEBD0 /* WCMatchDetailHeaderView.xib in Resources */,
 				29ECE1E91957CAC6004EEBD0 /* ProximaNova-Extrabold.otf in Resources */,
+				29ECE20A19591F13004EEBD0 /* WCMatchEventView.xib in Resources */,
 				29ECE1EA1957CAC6004EEBD0 /* ProximaNova-Light.otf in Resources */,
 				29ECDDC819572919004EEBD0 /* WCMatchContainerView.xib in Resources */,
 				29ECE1F31957CDD2004EEBD0 /* calendar-blank@2x.png in Resources */,
@@ -462,11 +498,15 @@
 				29624A151954D13F008F0E06 /* WCDataStore.m in Sources */,
 				29BA8DED19551F3900D36AE1 /* WCMatchesController.m in Sources */,
 				296249E81954C809008F0E06 /* WCAppDelegate.m in Sources */,
+				29ECE21119592FFC004EEBD0 /* WCDetailTransitionController.m in Sources */,
 				29C983DC1955F7EA00450B23 /* WCRouter.m in Sources */,
+				29ECE20419591585004EEBD0 /* WCDetailController.m in Sources */,
 				296249E41954C809008F0E06 /* main.m in Sources */,
 				29ECDDC419570C85004EEBD0 /* WCMatchCell.m in Sources */,
 				29624A0E1954CB87008F0E06 /* WCMatch.m in Sources */,
+				29ECE20D19592F32004EEBD0 /* UIImage+Blurring.m in Sources */,
 				29624A111954CBCA008F0E06 /* WCMatchTeam.m in Sources */,
+				29ECE20819591EF9004EEBD0 /* WCMatchEventView.m in Sources */,
 				29624A181954D146008F0E06 /* WCClient.m in Sources */,
 				29624A081954C83C008F0E06 /* WCTeam.m in Sources */,
 			);

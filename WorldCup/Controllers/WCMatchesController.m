@@ -12,12 +12,15 @@
 #import <ReactiveCocoa.h>
 #import "WCMatchCell.h"
 #import <SDWebImage/UIImageView+WebCache.h>
+#import "WCDetailController.h"
+#import "WCDetailTransitionController.h"
 
 @interface WCMatchesController ()
 
 @property (nonatomic) NSArray *sortedDates;
 @property (nonatomic) NSDictionary *matchDates;
 @property (nonatomic) NSString *todayString;
+@property (nonatomic) WCDetailTransitionController *detailTrainsitioningController;
 
 @end
 
@@ -27,6 +30,8 @@ NSString * const MatchCellIdentifier = @"MatchCellIdentifier";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.detailTrainsitioningController = [[WCDetailTransitionController alloc] init];
     
     NSDateFormatter *formatter = [WCMatch dateFormatter];
     @synchronized(formatter) {
@@ -220,11 +225,11 @@ NSString * const MatchCellIdentifier = @"MatchCellIdentifier";
         WCTeam *winner = [match winner];
         UIView *label, *score;
         
-        if (winner == home) {
+        if (winner == away) {
             label = cell.homeLabel;
             score = cell.homeScoreLabel;
         }
-        else {
+        else if (winner == home) {
             label = cell.awayLabel;
             score = cell.awayScoreLabel;
         }
@@ -281,6 +286,21 @@ NSString * const MatchCellIdentifier = @"MatchCellIdentifier";
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 90;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    WCMatchCell *cell = (WCMatchCell *)[tableView cellForRowAtIndexPath:indexPath];
+    self.detailTrainsitioningController.homeView = cell.homeImageView;
+    self.detailTrainsitioningController.awayView = cell.awayImageView;
+    
+    NSString *key = self.sortedDates[indexPath.section];
+    NSArray *matches = self.matchDates[key];
+    WCMatch *match = matches[indexPath.row];
+    
+    WCDetailController *controller = [[WCDetailController alloc] init];
+    controller.transitioningDelegate = self.detailTrainsitioningController;
+    controller.match = match;
+    [self presentViewController:controller animated:YES completion:nil];
 }
 
 @end

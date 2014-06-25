@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WCDetailController">
+            <connections>
+                <outlet property="awayFlagImageView" destination="yws-wV-kHB" id="8gw-rf-yVf"/>
+                <outlet property="awayNameLabel" destination="pf5-S3-cCJ" id="ZV5-1i-Hvp"/>
+                <outlet property="awayScoreLabel" destination="Xtz-n4-F1l" id="hel-R9-wBn"/>
+                <outlet property="homeFlagImageView" destination="kn6-Ce-k3n" id="cTO-0a-bUC"/>
+                <outlet property="homeNameLabel" destination="2UY-8K-xTy" id="wsX-OX-8bo"/>
+                <outlet property="homeScoreLabel" destination="mkc-5g-FaY" id="W1R-GS-wRj"/>
+                <outlet property="statusLabel" destination="hdc-fx-5kZ" id="Jil-dl-1BG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2UY-8K-xTy" userLabel="Home Country">
+                    <rect key="frame" x="5" y="0.0" width="110" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="WfJ-fv-yo6"/>
+                        <constraint firstAttribute="width" constant="110" id="hM1-14-PwM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kn6-Ce-k3n" userLabel="Home Flag">
+                    <rect key="frame" x="5" y="24" width="80" height="52"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.92000000000000004" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="XRJ-S8-bKr"/>
+                        <constraint firstAttribute="height" constant="52" id="dvH-mn-Gsq"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkc-5g-FaY" userLabel="Home Score">
+                    <rect key="frame" x="93" y="26" width="22" height="48"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:00 pm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdc-fx-5kZ" userLabel="Status">
+                    <rect key="frame" x="129" y="40" width="63" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pf5-S3-cCJ" userLabel="Away Country">
+                    <rect key="frame" x="205" y="0.0" width="110" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="110" id="ZvT-ZD-LWv"/>
+                        <constraint firstAttribute="height" constant="21" id="y8j-u9-fcO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtz-n4-F1l" userLabel="Away Score">
+                    <rect key="frame" x="205" y="26" width="22" height="48"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yws-wV-kHB" userLabel="Away Flag">
+                    <rect key="frame" x="235" y="24" width="80" height="52"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.92000000000000004" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="SuB-44-RHC"/>
+                        <constraint firstAttribute="width" constant="80" id="fYj-9y-VkM"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="yws-wV-kHB" firstAttribute="top" secondItem="pf5-S3-cCJ" secondAttribute="bottom" constant="3" id="Byz-Ds-jys"/>
+                <constraint firstAttribute="centerY" secondItem="yws-wV-kHB" secondAttribute="centerY" id="CWA-Ui-960"/>
+                <constraint firstAttribute="trailing" secondItem="pf5-S3-cCJ" secondAttribute="trailing" constant="5" id="G0E-6U-qF3"/>
+                <constraint firstAttribute="centerY" secondItem="kn6-Ce-k3n" secondAttribute="centerY" id="Q5l-eA-nOl"/>
+                <constraint firstItem="2UY-8K-xTy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="TZg-lW-lmW"/>
+                <constraint firstAttribute="centerY" secondItem="hdc-fx-5kZ" secondAttribute="centerY" id="UIH-mN-aVk"/>
+                <constraint firstAttribute="centerX" secondItem="hdc-fx-5kZ" secondAttribute="centerX" id="Va0-ve-ECe"/>
+                <constraint firstAttribute="centerY" secondItem="mkc-5g-FaY" secondAttribute="centerY" id="WQx-Fh-V8O"/>
+                <constraint firstItem="yws-wV-kHB" firstAttribute="leading" secondItem="Xtz-n4-F1l" secondAttribute="trailing" constant="8" id="b8I-Bg-ocS"/>
+                <constraint firstAttribute="trailing" secondItem="yws-wV-kHB" secondAttribute="trailing" constant="5" id="bL9-gB-cdS"/>
+                <constraint firstItem="kn6-Ce-k3n" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="lu7-4c-tN7"/>
+                <constraint firstAttribute="centerY" secondItem="Xtz-n4-F1l" secondAttribute="centerY" id="nHo-oW-eco"/>
+                <constraint firstItem="kn6-Ce-k3n" firstAttribute="top" secondItem="2UY-8K-xTy" secondAttribute="bottom" constant="3" id="oYz-RT-IbJ"/>
+                <constraint firstItem="mkc-5g-FaY" firstAttribute="leading" secondItem="kn6-Ce-k3n" secondAttribute="trailing" constant="8" id="uUD-uB-Tr1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
