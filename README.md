@@ -36,3 +36,12 @@ As an aside, storing data in ```NSUserDefaults``` is a terrible idea on paper, b
 ### [CocoaPods](http://cocoapods.org/)
 
 I love you guys so much.
+
+## Contact
+
+* [@_ryannystrom](https://twitter.com/_ryannystrom) on Twitter
+* <a href="mailTo:rnystrom@whoisryannystrom.com">rnystrom [at] whoisryannystrom [dot] com</a>
+
+## License
+
+See [LICENSE](https://github.com/rnystrom/World-Cup-Matches/blob/master/LICENSE).
