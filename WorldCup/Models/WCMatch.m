@@ -85,13 +85,21 @@
     [team bindWithJSON:teamJSON];
     matchTeam.team = team;
     
-    NSMutableArray *events = [[NSMutableArray alloc] init];
-    for (NSDictionary *eventJSON in json[eventKey]) {
-        WCEvent *event = [[WCEvent alloc] init];
-        [event bindWithJSON:eventJSON];
-        [events addObject:event];
+    NSMutableArray *mEvents = [[NSMutableArray alloc] init];
+    
+    id events = json[eventKey];
+    
+    if ([events isKindOfClass:NSArray.class]) {
+        for (id eventJSON in events) {
+            if ([eventJSON isKindOfClass:NSDictionary.class]) {
+                WCEvent *event = [[WCEvent alloc] init];
+                [event bindWithJSON:eventJSON];
+                [mEvents addObject:event];
+            }
+        }
+        
+        matchTeam.events = mEvents;
     }
-    matchTeam.events = events;
     
     NSString *goalsKeyPath = [NSString stringWithFormat:@"%@.goals",teamKey];
     matchTeam.goals = [json valueForKeyPath:goalsKeyPath];
