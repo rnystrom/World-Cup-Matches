@@ -8,12 +8,9 @@
 
 #import "WCRouter.h"
 #import "WCMatchesController.h"
-#import "WCTeamsController.h"
 #import "WCAppDelegate.h"
 
 @interface WCRouter ()
-
-@property (nonatomic) UITabBarController *mainTabBarController;
 
 @end
 
@@ -45,21 +42,6 @@
 }
 
 #pragma mark - Getter
-
-- (UITabBarController *)mainTabBarController {
-    if (! _mainTabBarController) {
-        _mainTabBarController = [[UITabBarController alloc] init];
-        
-        UIViewController *matchesNav = [self matchesController];
-        
-        WCTeamsController *teams = [[WCTeamsController alloc] init];
-        UINavigationController *teamsNav = [[UINavigationController alloc] initWithRootViewController:teams];
-        teamsNav.tabBarItem.title = @"Teams";
-        
-        _mainTabBarController.viewControllers = @[matchesNav, teamsNav];
-    }
-    return _mainTabBarController;
-}
 
 - (UIViewController *)matchesController {
     WCMatchesController *matches = [[WCMatchesController alloc] init];
