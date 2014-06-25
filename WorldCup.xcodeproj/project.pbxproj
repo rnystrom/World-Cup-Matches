@@ -49,7 +49,6 @@
 		2986F563195A7B740094D601 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2986F553195A7B740094D601 /* iTunesArtwork@2x.png */; };
 		29BA8DED19551F3900D36AE1 /* WCMatchesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA8DEC19551F3900D36AE1 /* WCMatchesController.m */; };
 		29C983DC1955F7EA00450B23 /* WCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C983DB1955F7EA00450B23 /* WCRouter.m */; };
-		29C983E01955F90300450B23 /* WCTeamsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C983DF1955F90300450B23 /* WCTeamsController.m */; };
 		29ECDDC419570C85004EEBD0 /* WCMatchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ECDDC219570C85004EEBD0 /* WCMatchCell.m */; };
 		29ECDDC819572919004EEBD0 /* WCMatchContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29ECDDC719572919004EEBD0 /* WCMatchContainerView.xib */; };
 		29ECE1E61957CAC6004EEBD0 /* ProximaNova-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 29ECE1DC1957CAC6004EEBD0 /* ProximaNova-Black.otf */; };
@@ -139,8 +138,6 @@
 		29BA8DEC19551F3900D36AE1 /* WCMatchesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WCMatchesController.m; path = Controllers/WCMatchesController.m; sourceTree = "<group>"; };
 		29C983DA1955F7EA00450B23 /* WCRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCRouter.h; sourceTree = "<group>"; };
 		29C983DB1955F7EA00450B23 /* WCRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCRouter.m; sourceTree = "<group>"; };
-		29C983DE1955F90300450B23 /* WCTeamsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WCTeamsController.h; path = Controllers/WCTeamsController.h; sourceTree = "<group>"; };
-		29C983DF1955F90300450B23 /* WCTeamsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WCTeamsController.m; path = Controllers/WCTeamsController.m; sourceTree = "<group>"; };
 		29ECDDC119570C85004EEBD0 /* WCMatchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WCMatchCell.h; path = Views/WCMatchCell.h; sourceTree = "<group>"; };
 		29ECDDC219570C85004EEBD0 /* WCMatchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WCMatchCell.m; path = Views/WCMatchCell.m; sourceTree = "<group>"; };
 		29ECDDC719572919004EEBD0 /* WCMatchContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WCMatchContainerView.xib; path = Views/WCMatchContainerView.xib; sourceTree = "<group>"; };
@@ -352,8 +349,6 @@
 			children = (
 				29BA8DEB19551F3900D36AE1 /* WCMatchesController.h */,
 				29BA8DEC19551F3900D36AE1 /* WCMatchesController.m */,
-				29C983DE1955F90300450B23 /* WCTeamsController.h */,
-				29C983DF1955F90300450B23 /* WCTeamsController.m */,
 				29ECE20119591585004EEBD0 /* WCDetailController.h */,
 				29ECE20219591585004EEBD0 /* WCDetailController.m */,
 				29ECE20F19592FFC004EEBD0 /* WCDetailTransitionController.h */,
@@ -591,7 +586,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				29624A0B1954C903008F0E06 /* WCEvent.m in Sources */,
-				29C983E01955F90300450B23 /* WCTeamsController.m in Sources */,
 				29624A151954D13F008F0E06 /* WCDataStore.m in Sources */,
 				29BA8DED19551F3900D36AE1 /* WCMatchesController.m in Sources */,
 				296249E81954C809008F0E06 /* WCAppDelegate.m in Sources */,

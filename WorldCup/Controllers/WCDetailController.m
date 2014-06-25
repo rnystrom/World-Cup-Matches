@@ -71,7 +71,7 @@
     NSArray *homeEvents = self.match.home.events;
     NSArray *awayEvents = self.match.away.events;
     NSArray *merged = [homeEvents arrayByAddingObjectsFromArray:awayEvents];
-    return [merged sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:@"time" ascending:YES]]];
+    return [merged sortedArrayUsingDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:@"apiID" ascending:YES]]];
 }
 
 - (void)setupHeader {
