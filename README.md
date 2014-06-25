@@ -1,7 +1,7 @@
 World Cup 2014 for iOS
 =================
 
-This is a stupid-simple app for iOS that reads World Cup data from [World Cup ... in JSON](http://worldcup.sfg.io/). It was a hacked-together app that was built in a couple days because I was bored and I didn't have a wicked fast World Cup app.
+This is a stupid-simple app for iOS that reads World Cup data from [World Cup ... in JSON](http://worldcup.sfg.io/) which is made by the gang at [software for good](http://softwareforgood.com/). It was a hacked-together app that was built in a couple days because I was bored and I didn't have a wicked fast World Cup app.
 
 There is some hacky code in here. I'm not open sourcing this because it's a perfect project. I'm open sourcing this because it's a real app made by a real person for a real problem. Sometimes it's just about building.
 
